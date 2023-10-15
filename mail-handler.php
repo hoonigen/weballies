@@ -1,7 +1,7 @@
 <?php 
 if(isset($_POST['submit'])){
     echo("Here I am");
-    
+     echo "<script>console.log('Debug Objects' );</script>";
     echo("Here I am");
     header('Location: contact.html');
     exit;
